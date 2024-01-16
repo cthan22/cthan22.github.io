@@ -1,6 +1,6 @@
 //const myHeading = document.querySelector("h1");
 //myHeading.textContent = "Hello world!";
-
+/*
 let myImage = document.querySelector("img");
 
 myImage.onclick = () => {
@@ -35,3 +35,21 @@ if(!localStorage.getItem("name")) {
 myButton.onclick = () => {
     setUserName();
 }; 
+*/
+
+document.getElementsByClassName('send:after')[0].addEventListener("click", funFact);
+
+function funFact() {
+    alert('My favorite color is purple!')
+}
+
+let myImage = document.querySelector("img");
+
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute("src");
+  if(mySrc === "images/myphoto.JPG") {
+    myImage.setAttribute("src", "images/kiki.jpeg");
+  } else {
+    myImage.setAttribute("src", "images/myphoto.JPG");
+  }
+};
