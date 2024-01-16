@@ -1,6 +1,6 @@
 html {
   font-size: 10px; 
-  font-family: "Montserrat", serif;
+  font-family: "Cardo", serif;
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  color: #00539f;
+  color: #195c15;
   text-shadow: 3px 3px 1px black;
 }
 
@@ -20,13 +20,13 @@ li {
 }
 
 html {
-  background-color: #b97af7;
+  background-color: #cba5f0;
 }
 
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #ff9500;
+  background-color: #6cb8ff;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
@@ -34,4 +34,6 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 60%;
+  max-height: 60%
 }
