@@ -40,7 +40,7 @@ myButton.onclick = () => {
 document.getElementsByClassName('send:after')[0].addEventListener("click", funFact);
 
 function funFact() {
-    alert('My favorite color is purple!')
+    alert('I am a Libra!')
 }
 
 let myImage = document.querySelector("img");
